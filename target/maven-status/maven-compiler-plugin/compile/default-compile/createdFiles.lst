@@ -1,0 +1,5 @@
+base\BaseTest.class
+utils\ConfigReader.class
+pages\ProductPage.class
+utils\WebDriverFactory.class
+pages\HomePage.class

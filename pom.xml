@@ -4,7 +4,7 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.amazon.automation</groupId>
-    <artifactId>Amazonfresh/artifactId>
+    <artifactId>Amazonfresh</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -27,6 +27,7 @@
             <artifactId>testng</artifactId>
             <version>7.10.2</version>
         </dependency>
+        
         <!-- WebDriverManager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
@@ -34,20 +35,12 @@
             <version>5.8.0</version>
         </dependency>
 
+        <!-- SLF4J Simple -->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.2</version>
-            <scope>compile</scope>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
         </dependency>
-
-
-    <!-- Example for SLF4J Simple -->
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-simple</artifactId>
-        <version>1.7.36</version>
-    </dependency>
     </dependencies>
 
     <build>
